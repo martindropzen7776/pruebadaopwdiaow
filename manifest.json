@@ -1,0 +1,2307 @@
+{
+    "manifest_version": "1.0.14",
+    "title": "Atra - Agency Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Full screen menu",
+            "screenshot": "screenshots\/full-screen-menu.jpg",
+            "source": "templates\/full-screen-menu.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/?elementor_library=full-screen-menu",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Search popup",
+            "screenshot": "screenshots\/search-popup.jpg",
+            "source": "templates\/search-popup.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/?elementor_library=search-popup",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/?elementor_library=header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/?elementor_library=footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/home-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/home-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact 1",
+            "screenshot": "screenshots\/contact-1.jpg",
+            "source": "templates\/contact-1.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/contact-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio 1",
+            "screenshot": "screenshots\/portfolio-1.jpg",
+            "source": "templates\/portfolio-1.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/portfolio-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Post single \u2013 with sidebar",
+            "screenshot": "screenshots\/post-single-with-sidebar.jpg",
+            "source": "templates\/post-single-with-sidebar.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/?elementor_library=post-single-with-sidebar",
+            "type": "single",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Archive",
+            "screenshot": "screenshots\/archive.jpg",
+            "source": "templates\/archive.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/?elementor_library=archive",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Common Elements",
+            "screenshot": "screenshots\/common-elements.jpg",
+            "source": "templates\/common-elements.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/common-elements\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact 2",
+            "screenshot": "screenshots\/contact-2.jpg",
+            "source": "templates\/contact-2.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/contact-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services 2",
+            "screenshot": "screenshots\/services-2.jpg",
+            "source": "templates\/services-2.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/services-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio 2",
+            "screenshot": "screenshots\/portfolio-2.jpg",
+            "source": "templates\/portfolio-2.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/portfolio-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio Single",
+            "screenshot": "screenshots\/portfolio-single.jpg",
+            "source": "templates\/portfolio-single.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/portfolio-single\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blogs 1",
+            "screenshot": "screenshots\/blogs-1.jpg",
+            "source": "templates\/blogs-1.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/blogs-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About 1",
+            "screenshot": "screenshots\/about-1.jpg",
+            "source": "templates\/about-1.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/about-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Blogs 2",
+            "screenshot": "screenshots\/blogs-2.jpg",
+            "source": "templates\/blogs-2.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/blogs-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About 2",
+            "screenshot": "screenshots\/about-2.jpg",
+            "source": "templates\/about-2.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/about-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services 1",
+            "screenshot": "screenshots\/services-1.jpg",
+            "source": "templates\/services-1.json",
+            "preview_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/template-kit\/services-1\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.5",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "2.9.14",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Sticky Header Effects for Elementor",
+            "version": "1.3.2",
+            "file": "sticky-header-effects-for-elementor\/sticky-header-effects-for-elementor.php",
+            "author": "Rwattner"
+        }
+    ],
+    "images": [
+        {
+            "filename": "lh-bg-06.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/lh-bg-06-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 246816,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/bag-wrapper-mockup-001-2AHUBPE"
+        },
+        {
+            "filename": "bg-19.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-19-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 263130,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/bag-wrapper-mockup-001-2AHUBPE"
+        },
+        {
+            "filename": "v-bg-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/v-bg-01-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 289961,
+            "dimensions": [
+                800,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/two-young-people-looking-at-photos-in-office-NGWN7MJ"
+        },
+        {
+            "filename": "bg-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-03-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/blogs-2.json",
+                    "name": "Blogs 2"
+                }
+            ],
+            "filesize": 295930,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/programmer-working-in-a-software-developing-compan-5SHG3F4"
+        },
+        {
+            "filename": "bg-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-02-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 265097,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/two-young-people-looking-at-photos-in-office-NGWN7MJ"
+        },
+        {
+            "filename": "portfolio-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-01-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/post-single-with-sidebar.json",
+                    "name": "Post single \u2013 with sidebar"
+                }
+            ],
+            "filesize": 301429,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/7OFnb7NOvjw"
+        },
+        {
+            "filename": "portfolio-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-05-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                }
+            ],
+            "filesize": 393733,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-invitation-mockup-set"
+        },
+        {
+            "filename": "portfolio-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-03-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                }
+            ],
+            "filesize": 220339,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/FfbVFLAVscw"
+        },
+        {
+            "filename": "portfolio-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-04-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                }
+            ],
+            "filesize": 289366,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-tote-bag-fabric-mockup-vol4"
+        },
+        {
+            "filename": "portfolio-14.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-14-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 297147,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/RFOzyipdzbc"
+        },
+        {
+            "filename": "rh-bg-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/rh-bg-02-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 300247,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/head-of-company-BMRGC5U"
+        },
+        {
+            "filename": "bg-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-04-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 298993,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/head-of-company-BMRGC5U"
+        },
+        {
+            "filename": "lh-bg-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/lh-bg-02-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 295059,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-stand-up-pouch-packaging-mockup-2"
+        },
+        {
+            "filename": "bg-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-05-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 281010,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-stand-up-pouch-packaging-mockup-2"
+        },
+        {
+            "filename": "portfolio-11.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-11-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 221603,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/Ns216N3sCAA"
+        },
+        {
+            "filename": "portfolio-08.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-08-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                }
+            ],
+            "filesize": 292909,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/FNOYT3NDdE0"
+        },
+        {
+            "filename": "portfolio-07.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-07-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                }
+            ],
+            "filesize": 279044,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/8Js2kEeiirs"
+        },
+        {
+            "filename": "portfolio-06.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-06-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                }
+            ],
+            "filesize": 281456,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/lotion-psd-bottle-cosmetic-mockup"
+        },
+        {
+            "filename": "portfolio-15.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-15-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                }
+            ],
+            "filesize": 260363,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/KStSiM1UvPw"
+        },
+        {
+            "filename": "rh-bg-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/rh-bg-03-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                }
+            ],
+            "filesize": 289260,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/leader-of-company-7BT28YX"
+        },
+        {
+            "filename": "logo-07.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-07.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/blogs-1.json",
+                    "name": "Blogs 1"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/blogs-2.json",
+                    "name": "Blogs 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 9891,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-06.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-06.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/blogs-1.json",
+                    "name": "Blogs 1"
+                },
+                {
+                    "source": "templates\/blogs-2.json",
+                    "name": "Blogs 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 8307,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-05.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-05.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/blogs-1.json",
+                    "name": "Blogs 1"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/blogs-2.json",
+                    "name": "Blogs 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 9933,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-04.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-04.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/blogs-1.json",
+                    "name": "Blogs 1"
+                },
+                {
+                    "source": "templates\/blogs-2.json",
+                    "name": "Blogs 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 9490,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "bg-06.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-06-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                },
+                {
+                    "source": "templates\/blogs-1.json",
+                    "name": "Blogs 1"
+                }
+            ],
+            "filesize": 281260,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/leader-of-company-7BT28YX"
+        },
+        {
+            "filename": "testimonial-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/testimonial-03-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 256276,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "logo-01.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-01.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/blogs-1.json",
+                    "name": "Blogs 1"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/blogs-2.json",
+                    "name": "Blogs 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 8540,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-02.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-02.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/blogs-2.json",
+                    "name": "Blogs 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 8149,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-03.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-03.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/blogs-1.json",
+                    "name": "Blogs 1"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 8623,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "logo-08.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/logo-08.png",
+            "templates": [
+                {
+                    "source": "templates\/home-1.json",
+                    "name": "Home 1"
+                },
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 8791,
+            "dimensions": [
+                500,
+                300
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "bg-17.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-17-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 295565,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-designer-HCA4NZ8"
+        },
+        {
+            "filename": "portfolio-12.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-12-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 220215,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-stand-up-pouch-packaging-mockup-2"
+        },
+        {
+            "filename": "portfolio-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-02-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                }
+            ],
+            "filesize": 243019,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/L8y01mTuDZg"
+        },
+        {
+            "filename": "portfolio-13.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-13-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 301623,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pixeden.com\/psd-mock-up-templates\/psd-kraft-notebook-set-mockup"
+        },
+        {
+            "filename": "lh-bg-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/lh-bg-01-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 216799,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/ZQ4EfU-6P6Y"
+        },
+        {
+            "filename": "bg-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-01-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 279342,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/ZQ4EfU-6P6Y"
+        },
+        {
+            "filename": "icon-15.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-15.png",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                }
+            ],
+            "filesize": 24814,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "lh-bg-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/lh-bg-04-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 303632,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/7OFnb7NOvjw"
+        },
+        {
+            "filename": "bg-08.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-08-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 265842,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/7OFnb7NOvjw"
+        },
+        {
+            "filename": "testimonial-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/testimonial-05-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 215853,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "testimonial-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/testimonial-01-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-2.json",
+                    "name": "Home 2"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                }
+            ],
+            "filesize": 239776,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "v-bg-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/v-bg-04-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                }
+            ],
+            "filesize": 282562,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-mature-man-in-office-interior-9945XL4"
+        },
+        {
+            "filename": "bg-10.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-10-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-1.json",
+                    "name": "Contact 1"
+                }
+            ],
+            "filesize": 297279,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/casual-young-business-people-working-and-talking-o-AFXJE8G"
+        },
+        {
+            "filename": "portfolio-16.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-16-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 275049,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/uUwEAW5jFLE"
+        },
+        {
+            "filename": "portfolio-17.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-17-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 172829,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/l8p1aWZqHvE"
+        },
+        {
+            "filename": "testimonial-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/testimonial-02-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-1.json",
+                    "name": "Portfolio 1"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 218265,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "v-bg-05.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/v-bg-05-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-2.json",
+                    "name": "Contact 2"
+                }
+            ],
+            "filesize": 304409,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/woman-working-on-a-laptop-at-home-SEHPJHV"
+        },
+        {
+            "filename": "icon-13.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-13.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 33643,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-09.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-09.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 25373,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-07.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-07.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 24261,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-02.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-02.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 21241,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-05.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-05.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 26937,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-06.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-06.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 18185,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-03.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-03.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 17605,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-11.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-11.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 23400,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "icon-04.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/icon-04.png",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                }
+            ],
+            "filesize": 6480,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "team-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/team-01-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 284931,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "team-02.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/team-02-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                }
+            ],
+            "filesize": 170946,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "team-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/team-04-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 180959,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "team-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/team-03-600x720.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/about-1.json",
+                    "name": "About 1"
+                },
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 230572,
+            "dimensions": [
+                1000,
+                1200
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-group-of-diverse-young-entrepreneurs-smi-BR8JD2P"
+        },
+        {
+            "filename": "portfolio-18.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/portfolio-18-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-2.json",
+                    "name": "Services 2"
+                },
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 287549,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/IxXJjPV0yZs"
+        },
+        {
+            "filename": "bg-14.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-14-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                }
+            ],
+            "filesize": 279064,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/LJqRUWr9V0w"
+        },
+        {
+            "filename": "bg-15.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-15-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 290689,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/WOzVqzpScrk"
+        },
+        {
+            "filename": "bg-16.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-16-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 294810,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/-jVP6zQJUAc"
+        },
+        {
+            "filename": "bg-13.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-13-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 296754,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/two-financiers-SL289UM"
+        },
+        {
+            "filename": "rh-bg-01.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/rh-bg-01-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 298915,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/two-young-people-looking-at-photos-in-office-NGWN7MJ"
+        },
+        {
+            "filename": "testimonial-04.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/testimonial-04-600x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-2.json",
+                    "name": "Portfolio 2"
+                }
+            ],
+            "filesize": 178380,
+            "dimensions": [
+                1500,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-group-of-young-businesspeople-smiling-conf-R6WA7BC"
+        },
+        {
+            "filename": "v-bg-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/v-bg-03-600x900.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio-single.json",
+                    "name": "Portfolio Single"
+                }
+            ],
+            "filesize": 244142,
+            "dimensions": [
+                800,
+                1200
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/IxXJjPV0yZs"
+        },
+        {
+            "filename": "w-icon-09.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/w-icon-09.png",
+            "templates": [
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 25195,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "w-icon-04.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/w-icon-04.png",
+            "templates": [
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 6465,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "w-icon-11.png",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/w-icon-11.png",
+            "templates": [
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                },
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 23250,
+            "dimensions": [
+                400,
+                400
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/simple-icons-BSK3HF"
+        },
+        {
+            "filename": "lh-bg-03.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/lh-bg-03-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 291665,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oW4tZeidfkA"
+        },
+        {
+            "filename": "bg-12.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-12-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-2.json",
+                    "name": "About 2"
+                }
+            ],
+            "filesize": 260418,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/oW4tZeidfkA"
+        },
+        {
+            "filename": "bg-09.jpg",
+            "thumbnail_url": "http:\/\/templatekits.c-kav.com\/demo2\/atra\/wp-content\/uploads\/sites\/18\/2020\/07\/bg-09-600x338.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services-1.json",
+                    "name": "Services 1"
+                }
+            ],
+            "filesize": 276717,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-designer-JGW6D4Q"
+        }
+    ]
+}
